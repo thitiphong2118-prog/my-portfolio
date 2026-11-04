@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="My Portfolio — Student & Creator" />
+  <title>My Portfolio | Thitiphong</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home"><span class="brand-star">✦</span> My Portfolio</a>
+    <button class="menu-toggle" aria-label="เปิดเมนู" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a class="active" href="#home">Home</a><a href="#about">About</a><a href="#portfolio">Portfolio</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="talk" href="#contact">Let's Talk ↗</a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div><div class="orbit"></div><span class="spark spark-one">✦</span><span class="spark spark-two">✦</span>
+      <div class="hero-photo"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1000&q=85" alt="Portrait placeholder"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow">WELCOME TO MY WORLD</p>
+        <h1>Hi, I'm<br><span>Thitiphong</span><i>_</i></h1>
+        <h2>Student &amp; Creator</h2>
+        <p class="quote">“เรียนรู้ พัฒนา และสร้างสรรค์สิ่งใหม่ ๆ<br>เพื่อเป็นเวอร์ชันที่ดีกว่าในทุกวัน”</p>
+        <div class="hero-actions"><a class="btn btn-light" href="#portfolio">ดูผลงานของฉัน <span>↗</span></a><a class="btn btn-outline" href="#about">เกี่ยวกับฉัน <span>♙</span></a></div>
+      </div>
+      <a class="scroll" href="#about">↓ <span>SCROLL DOWN</span></a>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="about-image reveal"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1000&q=85" alt="Workspace"></div>
+      <div class="about-copy reveal"><div class="section-label">About Me <span></span></div>
+        <h2>สวัสดีครับ! ผมชื่อ “ธิติพงศ์ เครือสุคน”</h2>
+        <p>เป็นนักศึกษาที่ชื่นชอบการออกแบบ เทคโนโลยี และการพัฒนาตัวเอง ผมมีความสนใจในด้านกราฟิกดีไซน์ การเขียนโปรแกรม และสื่อสร้างสรรค์ต่าง ๆ พร้อมเรียนรู้สิ่งใหม่อยู่เสมอ เพื่อก้าวสู่เป้าหมายในอนาคตครับ 😊</p>
+        <a class="btn btn-dark" href="#contact">ประวัติส่วนตัว ↓</a>
+      </div>
+      <div class="skills reveal" id="skills"><div class="section-label">Skills <span></span></div><div class="skill-grid">
+        <div class="skill"><b class="ps">Ps</b><span>Adobe<br>Photoshop</span></div>
+        <div class="skill"><b class="ai">Ai</b><span>Adobe<br>Illustrator</span></div>
+        <div class="skill"><b class="pr">Pr</b><span>Adobe<br>Premiere Pro</span></div>
+        <div class="skill"><b class="code">〈/〉</b><span>HTML &amp; CSS</span></div>
+        <div class="skill"><b class="vs">⌘</b><span>C# / .NET</span></div>
+        <div class="skill"><b class="pen">✎</b><span>Design &amp;<br>Creative</span></div>
+      </div></div>
+    </section>
+
+    <section class="portfolio section" id="portfolio">
+      <div class="portfolio-heading"><div class="section-label">My Portfolio <span></span></div><p>Selected works ✦</p></div>
+      <div class="project-grid">
+        <a class="project reveal" href="#contact"><img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=900&q=85" alt="ทุ่งนา"><div class="project-info"><span>▶</span> Film Project <small>01</small></div></a>
+        <a class="project reveal" href="#contact"><img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=900&q=85" alt="Gaming setup"><div class="project-info"><span>▧</span> Graphic Design <small>02</small></div></a>
+        <a class="project reveal" href="#contact"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=85" alt="Laptop coding"><div class="project-info"><span>◎</span> Web Project <small>03</small></div></a>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact"><div><div class="section-label">Contact <span></span></div><h2>Let's Connect!</h2><p>สามารถติดต่อผมได้ที่ช่องทางด้านล่างเลยครับ 😊</p></div><div class="socials"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">◎</a><a href="#" aria-label="YouTube">▶</a><a href="mailto:your@email.com" aria-label="Email">✉</a></div></section>
+  </main>
+  <footer>© <span id="year"></span> My Portfolio · Designed with care.</footer>
+  <script src="script.js"></script>
+</body>
+</html>
